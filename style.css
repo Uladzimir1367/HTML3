@@ -4,17 +4,30 @@
  
 }
 body {
+   display: flex;
+   flex-direction: column;
    width: 1920px;
    height: 943px;
    flex-shrink: 0;
+   gap: 20px;
    background: #FFF;
 }
 .top {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-shrink: 0;
+   gap: 350px;
    width: 1289px;
    height: 114px;
-   padding: 45px 25px;
-   gap: 14;
-   border: 1px solid #0150E9;
+   /*border: 1px solid #0150E9;*/
+}
+.log {
+   display: flex;
+   /*justify-content: center;*/
+   align-items: center;
+   width: 88px;
+   height: 30px;
 }
 .header {
    display: inline-flex;
@@ -22,9 +35,10 @@ body {
    height: 40px;
    gap: 40px;
    border: 1px solid #20C905;
-   justify-content: center;
-   align-items: center; 
- 
+   
+   padding: 15px 25px;
+   align-items: center;
+     
 }
 .img_logo {
    width: 35px;
@@ -42,15 +56,20 @@ a {
 }
 
 .top_content {
+   display: flex;
    width: 1274px;
-   height: 536px;
-   border: 1px solid #E99C08;
+   /*height: 536px;*/
+   flex-shrink: 0;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   /*border: 1px solid #E99C08;*/
 }
 .top_info {
    width: 589px;
    height: 475px;
    padding: 35px 55px;
-   border: 1px solid #BD0EFB;
+   /*border: 1px solid #BD0EFB;*/
 }
 
 .title {
@@ -68,20 +87,15 @@ a {
    font-weight: 400;
    line-height: normal;
 }
-.text_h5 {
-   color: #AAA;
-   font-size: 15px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: normal;
-}
 .top_button {
    display: inline-flex;
-   padding: 55px 25px;
+   padding: 60px 25px;
    gap: 72px;
-   width: 374px;
+   max-width: 374px;
    height: 94px;
-   border: 1px solid #FF1DA4;
+  /* border: 1px solid #FF1DA4;*/
+   justify-content: center;
+   align-items: center;
 }
 button {
    border-radius: 50px;
@@ -99,6 +113,8 @@ button {
    font-style: normal;
    font-weight: 400;
    line-height: normal;
+   width: 90px;
+   height: 19px;
 }
 .imaging {
    width: 544.814px;
@@ -111,23 +127,28 @@ button {
    display: inline-flex;
    width: 1240px;
    height: 158px;
-   padding: 45px 25px;
+   /*padding: 45px, 15px;*/
    justify-content: center;
    align-items: center;
+   gap: 48;
    border: 1px solid #19FBFB;
 }
-.brend_logo {
+/*{
+   .brend_logo {
    width: 1200px;
    height: 50px;
    flex-shrink: 0;
-   gap: 48;
-   justify-content: center;
-   align-items: center;
-}
+   gap: 48px;
+   }*/
 .imagin_foot {
    width: 160px;
    height: 50px;
    flex-shrink: 0;
-   
 }
+      
+   
+   
+   
+
+
 
